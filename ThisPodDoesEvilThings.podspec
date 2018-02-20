@@ -21,6 +21,10 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/friedbunny/ThisPodDoesEvilThings.git", :tag => "#{s.version}" }
   s.source_files = "*"
 
+  if s.respond_to?(:swift_version)
+    s.swift_version = "4.0"
+  end
+
   # ―――  Evil Things  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   `HOMEBREW_NO_AUTO_UPDATE=1 brew install nyancat`
