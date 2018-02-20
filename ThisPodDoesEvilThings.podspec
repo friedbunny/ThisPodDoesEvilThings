@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "ThisPodDoesEvilThings"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Uhh, clearly this pod does evil things."
 
   s.description  = <<-DESC
